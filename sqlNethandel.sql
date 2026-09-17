@@ -10,7 +10,7 @@ CREATE TABLE produkter (
     farge VARCHAR(30) NOT NULL
 );
 
-– Sett inn alle produktvarianter variabler som navn, pris, kategori, farge
+-- Sett inn alle produktvarianter variabler som navn, pris, kategori, farge
 INSERT INTO produkter (navn, pris, kategori, farge) VALUES
 ('Taske', 300.00, 'Tasker', 'Blå'),
 ('Taske', 300.00, 'Tasker', 'Gul'),
